@@ -12,5 +12,5 @@
 ```json
 {
   "chat_id": "<chat_id>",
-  "text": "Привет, бот!"
+  "text": "Привет из Postman!"
 }
