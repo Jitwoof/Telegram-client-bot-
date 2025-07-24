@@ -1,4 +1,4 @@
-# 📡 API Requests for Telegram Bot
+# API Requests for Telegram Bot
 
 ##  1. Проверка доступности Telegram API
 **GET** https://api.telegram.org/bot<TOKEN>/getMe  
@@ -17,7 +17,7 @@
 
 ---
 
-## 3. Проверка отправки сообщения в режиме Polling
+##  3. Проверка отправки сообщения в режиме Polling
 **POST** https://api.telegram.org/bot<TOKEN>/getUpdates  
 **Body (JSON):**
 ```json
