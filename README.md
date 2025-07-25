@@ -16,12 +16,8 @@
 - Запись сообщений в БД
 - Поддержка webhook (реакция на входящие от Telegram)
 
-## 📷 Скриншоты
-![Webhook OK](static/webhook_ok.png)
-![DB](static/database_feedback.png)
-
 ## ✅ API-тесты
-См. [test/test_api_requests.md](test/test_api_requests.md)
+См. [TEST/test_api_requests.md](test/test_api_requests.md)
 
 ## 📎 Полезное
 - [Webhook setup](webhook_setup.md)
