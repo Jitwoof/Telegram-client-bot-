@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"chat_id\": \"5502113724\",\r\n  \"text\": \"Привет из Postman!\"\r\n}\r\n",
+							"raw": "{\r\n  \"chat_id\": \"ID\",\r\n  \"text\": \"Привет из Postman!\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -24,7 +24,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.telegram.org/bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw/sendMessage",
+							"raw": "https://api.telegram.org/bot<TOKEN>/sendMessage",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -32,7 +32,7 @@
 								"org"
 							],
 							"path": [
-								"bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw",
+								"bot<TOKEN>",
 								"sendMessage"
 							]
 						}
@@ -45,7 +45,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.telegram.org/bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw/getMe",
+							"raw": "https://api.telegram.org/bot<TOKEN>/getMe",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -53,7 +53,7 @@
 								"org"
 							],
 							"path": [
-								"bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw",
+								"bot<TOKEN>",
 								"getMe"
 							]
 						}
@@ -70,10 +70,10 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"chat_id\": \"5502113724\",\r\n  \"text\": \"Привет из Postman!\"\r\n}\r\n"
+							"raw": "{\r\n  \"chat_id\": \"ID\",\r\n  \"text\": \"Привет из Postman!\"\r\n}\r\n"
 						},
 						"url": {
-							"raw": "https://api.telegram.org/bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw/getUpdates",
+							"raw": "https://api.telegram.org/bot<TOKEN>/getUpdates",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -81,7 +81,7 @@
 								"org"
 							],
 							"path": [
-								"bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw",
+								"bot<TOKEN>",
 								"getUpdates"
 							]
 						}
@@ -94,7 +94,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.telegram.org/bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw/getWebhookInfo",
+							"raw": "https://api.telegram.org/bot<TOKEN>/getWebhookInfo",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -102,7 +102,7 @@
 								"org"
 							],
 							"path": [
-								"bot7435002413:AAGSwcIJWbmAMcjwtv4a_GUiY-8uychA5yw",
+								"bot<TOKEN>",
 								"getWebhookInfo"
 							]
 						}
