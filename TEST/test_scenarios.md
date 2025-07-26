@@ -49,4 +49,4 @@
 ## 📎 Связанные файлы
 
 - [`test_results.md`](./test_results.md) — фактические результаты
-- [`docs/postman_collection.json`](../docs/postman_collection.json) — коллекция Postman
+- [`TEST/postman.collection.json`](../TEST/postman.collection.json) — коллекция Postman
